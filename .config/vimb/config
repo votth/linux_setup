@@ -26,7 +26,7 @@ set minimum-font-size=14
 # Path to the default download directory. If no download directory is set,
 # download will be written into current directory. The following pattern will
 # be expanded if the download is started '~/', '~user', '$VAR' and '${VAR}'.
-set download-path=~/Download/
+set download-path=~/Downloads/
 
 # If enabled the inputbox will be hidden whenever it contains no text.
 set input-autohide=true

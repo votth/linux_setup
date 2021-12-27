@@ -595,6 +595,7 @@ texlive-latexextra
 thin-provisioning-tools
 tracker3
 transmission-gtk
+tree
 tslib
 ttf-bitstream-vera
 ttf-croscore

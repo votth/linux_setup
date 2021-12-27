@@ -273,28 +273,28 @@ globalkeys = gears.table.join(
          {description = "toggle statusbar", group = "awesome"}
     ), 
 
-   -- Volume Keys
-   awful.key({}, "XF86AudioLowerVolume", function ()
-     awful.util.spawn("amixer set Master 5%-", false) end),
-   awful.key({}, "XF86AudioRaiseVolume", function ()
-     awful.util.spawn("amixer set Master 5%+", false) end),
-   awful.key({}, "XF86AudioMute", function ()
-     awful.util.spawn("amixer set Master toggle", false) end),
-   -- Media Keys
-   awful.key({}, "XF86AudioPlay", function()
-     awful.util.spawn("playerctl -a play-pause", false) end),
-   awful.key({}, "XF86AudioNext", function()
-     awful.util.spawn("playerctl next", false) end),
-   awful.key({}, "XF86AudioPrev", function()
-     awful.util.spawn("playerctl previous", false) end),
+	-- Volume Keys
+	awful.key({}, "XF86AudioLowerVolume", function ()
+		awful.util.spawn("amixer set Master 5%-", false) end),
+	awful.key({}, "XF86AudioRaiseVolume", function ()
+		awful.util.spawn("amixer set Master 5%+", false) end),
+	awful.key({}, "XF86AudioMute", function ()
+		awful.util.spawn("amixer set Master toggle", false) end),
+	-- Media Keys
+	awful.key({}, "XF86AudioPlay", function()
+		awful.util.spawn("playerctl -a play-pause", false) end),
+	awful.key({}, "XF86AudioNext", function()
+		awful.util.spawn("playerctl next", false) end),
+	awful.key({}, "XF86AudioPrev", function()
+		awful.util.spawn("playerctl previous", false) end),
 
-    -- Brightness control
-    awful.key({}, "XF86MonBrightnessUp", function()
-     awful.util.spawn("xbacklight -inc 5", false) end),
-    awful.key({}, "XF86MonBrightnessDown", function()
-     awful.util.spawn("xbacklight -dec 5", false) end),
+	-- Brightness control
+	awful.key({}, "XF86MonBrightnessUp", function()
+		awful.util.spawn("xbacklight -inc 5", false) end),
+	awful.key({}, "XF86MonBrightnessDown", function()
+		awful.util.spawn("xbacklight -dec 5", false) end),
     
-    awful.key({ modkey,           }, "j",
+	awful.key({ modkey,           }, "j",
         function ()
             awful.client.focus.byidx( 1)
         end,
