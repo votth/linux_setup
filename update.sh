@@ -1,8 +1,9 @@
 #!/bin/bash
 
-cp -avr -t . ~/.bashrc ~/.bash_aliases ~/.vimrc ~/.vim/colors/ ~/testPackages ~/.git* ~/.xinitrc ~/.config/alacritty/ ~/.config/lf/ ~/.config/picom/ ~/.config/vimb/config ~/.config/awesome/autorun.sh ~/.config/awesome/rc.lua
+cp -avr -t . ~/.bashrc ~/.bash_aliases ~/.vimrc ~/.vim/colors/ ~/testPackages ~/.git* ~/.xinitrc ~/.config/alacritty/ ~/.config/lf/ ~/.config/picom/ ~/.config/vimb/config ~/.config/awesome/autorun.sh ~/.config/awesome/rc.lua ~/.config/vim/statusLine.vim
 
 mv config .config/vimb/
+mv statusLine.vim .config/vim/
 mv -t .config/awesome/ autorun.sh rc.lua
 cp -avr -t .config/ alacritty/ lf/ picom/
 cp -avr colors/ .config/vim/

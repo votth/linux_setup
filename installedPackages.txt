@@ -55,6 +55,7 @@ code
 colormake
 coreutils
 cryptsetup
+ctags
 cuda
 curl
 dav1d
@@ -144,6 +145,7 @@ gtk3
 gtkmm
 guile
 gumbo-parser
+gvim
 gzip
 harfbuzz
 harfbuzz-icu
@@ -615,6 +617,7 @@ ttf-linux-libertine
 ttf-merriweather
 ttf-merriweather-sans
 ttf-ms-fonts
+ttf-nerd-fonts-symbols
 ttf-opensans
 ttf-oswald
 ttf-quintessential
@@ -635,7 +638,6 @@ util-linux-libs
 v4l-utils
 vdpauinfo
 vid.stab
-vim
 vim-runtime
 vimb
 vlc

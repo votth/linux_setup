@@ -106,9 +106,6 @@ mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesom
 menubar.utils.terminal = terminal -- Set the terminal for applications that require it
 -- }}}
 
--- Keyboard map indicator and switcher
-mykeyboardlayout = awful.widget.keyboardlayout()
-
 -- {{{ Wibar
 -- Create a textclock widget
 mytextclock = wibox.widget.textclock()
@@ -232,7 +229,6 @@ awful.screen.connect_for_each_screen(function(s)
 	    spotify_widget({
 		font = 'Ubuntu Mono 13',
 	    }),
-	    mykeyboardlayout,
 	    wibox.widget.systray(),
 	    volume_widget({
 		widget_type = 'horizontal_bar',
@@ -614,6 +610,15 @@ end)
 
 client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
+
+-- Workaround for missing border when fullscreen <--> windowed
+client.connect_signal("request::geometry", function(c)
+	if client.focus then
+		if not client.focus.fullscreen then
+			client.focus.border_width = beautiful.border_width
+		end
+	end
+end)
 
 -- Autostart programs
 awful.spawn.with_shell("~/.config/awesome/autorun.sh")

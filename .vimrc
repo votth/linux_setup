@@ -3,6 +3,7 @@ colorscheme nasaKAT
 
 "" Enbale funzy :^)
 set nocompatible
+set clipboard=unnamedplus
 
 "" Enbale syntax and plugins (for netrw)
 syntax on
@@ -12,8 +13,21 @@ filetype plugin on
 set path+=**
 " Display match files for tab completion
 set wildmenu
+" Browsing
+let g:netrw_banner=0							" disable banner
+let g:netrw_browser_split=4						" open in prior window
+let g:netrw_altv=1								" open splits to the right
+let g:netrw_liststyle=3							" tree view
+let g:netrw_list_hide=netrw_gitignore#Hide()
+let g:netrw_list_hide='.\(^\|\s\s)\zs\.\S\+'
 
-"" Common visual
+"" Snippets
+nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a
+
+"" Create 'tags' file (using with ctags)
+command! MakeTags !ctags -R .
+
+"" Common config
 set number relativenumber	" Show line numbers
 set linebreak				" Break lines at word (requires Wrap lines)
 set showmatch				" Highlight matching brace
@@ -22,7 +36,7 @@ set hlsearch				" Highlight all search results, :noh to turn of temperary
 set smartcase				" Enable smart-case search
 set ignorecase				" Always case-insensitive
 set incsearch			 	" Searches for strings incrementally
- 
+" Indentation 
 set autoindent				" Auto-indent new lines
 set smartindent				" Enable smart-indent
 set smarttab				" Enable smart-tabs
@@ -32,27 +46,9 @@ set shiftwidth=4			" Number of auto-indent spaces
 set undolevels=1000			" Number of undo levels
 set backspace=indent,eol,start	" Backspace behaviour
 
-"" Status-line
-set laststatus=2
-set shortmess-=S			" Show total matched search
-set showcmd					" Show current cmd
-
-hi SLYellow ctermfg=016 ctermbg=222
-hi SLBlack ctermfg=222 ctermbg=016
-
-set statusline=%#SLBlack#\ 
-set statusline+=%n\ 
-set statusline+=%#SLYellow#\ 
-set statusline+=%.20F\ %2m
-
-set statusline+=%=			" Align right
-set statusline+=%#SLBlack#\ 
-set statusline+=%y\ 
-set statusline+=%#SLYellow#\ 
-set statusline+=%2l\,%2c\ 
-set statusline+=\[%L\]
-
 "" ???
 set undodir=~/.vim/undodir
 set undofile
 
+"" Add statusLine.vim
+source $HOME/.config/vim/statusLine.vim
