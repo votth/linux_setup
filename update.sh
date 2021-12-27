@@ -11,7 +11,7 @@ rm -rf alacritty lf picom colors
 pacman -Qq > installedPackages.txt
 
 ### Push the update
-git add .
-git commit -m "Autoupdate"
-
-git push
+#git add .
+#git commit -m "Autoupdate"
+#
+#git push
