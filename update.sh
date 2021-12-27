@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp -avr -t . ~/.bashrc ~/.vimrc ~/.vim/colors/ ~/testPackages ~/.git* ~/.xinitrc ~/.config/alacritty/ ~/.config/lf/ ~/.config/picom/ ~/.config/vimb/config ~/.config/awesome/autorun.sh ~/.config/awesome/rc.lua
+cp -avr -t . ~/.bashrc ~/.bash_aliases ~/.vimrc ~/.vim/colors/ ~/testPackages ~/.git* ~/.xinitrc ~/.config/alacritty/ ~/.config/lf/ ~/.config/picom/ ~/.config/vimb/config ~/.config/awesome/autorun.sh ~/.config/awesome/rc.lua
 
 mv config .config/vimb/
 mv -t .config/awesome/ autorun.sh rc.lua
@@ -11,7 +11,7 @@ rm -rf alacritty lf picom colors
 pacman -Qq > installedPackages.txt
 
 ### Push the update
-#git add .
+git add .
 #git commit -m "Autoupdate"
 #
 #git push
