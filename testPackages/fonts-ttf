@@ -1,0 +1,114 @@
+extra/gnu-free-fonts 20120503-8 [installed]
+    A free family of scalable outline fonts
+extra/noto-fonts 20201226-2 [installed]
+    Google Noto TTF fonts
+extra/noto-fonts-extra 20201226-2 [installed]
+    Google Noto TTF fonts - additional variants
+extra/sdl2_ttf 2.0.15-2 [installed]
+    A library that allows you to use TrueType fonts in your SDL applications (Version 2)
+extra/ttf-bitstream-vera 1.10-14
+    Bitstream Vera fonts.
+extra/ttf-caladea 20200113-3
+    A serif font family metric-compatible with Cambria font family
+extra/ttf-carlito 20130920-6
+    Google's Carlito font
+extra/ttf-croscore 20201226-2
+    Chrome OS core fonts
+extra/ttf-dejavu 2.37+18+g9b5d1b2f-3
+    Font family based on the Bitstream Vera Fonts with a wider range of characters
+extra/ttf-hack 3.003-3
+    A hand groomed and optically balanced typeface based on Bitstream Vera Mono.
+community/birdfont 2.29.6-1
+    Font editor which can generate fonts in TTF, EOT and SVG formats
+community/mftrace 1.2.20-3
+    Traces TeX bitmap fonts into PFA, PFB, or TTF
+community/opendesktop-fonts 1.4.2-6
+    Chinese TrueType Fonts
+community/perl-font-ttf 1.06-4
+    Font::TTF - Perl module for TrueType font hacking
+community/python-ziafont 0.2-1
+    Convert TTF/OTF font glyphs to SVG paths
+community/sdl_ttf 2.0.11-6 [installed]
+    A library that allows you to use TrueType fonts in your SDL applications
+community/ttf-anonymous-pro 1.003-5
+    A family of four fixed-width fonts designed especially with coding in mind
+community/ttf-arphic-ukai 0.2.20080216.2-1
+    CJK Unicode font Kaiti style
+community/ttf-arphic-uming 0.2.20080216.2-1 [installed]
+    CJK Unicode font Ming style
+community/ttf-baekmuk 2.2-13
+    Korean fonts
+community/ttf-cascadia-code 2110.31-1
+    A monospaced font by Microsoft that includes programming ligatures
+community/ttf-cormorant 3.609-1
+    Open-source display font family
+community/ttf-droid 20121017-10
+    General-purpose fonts released by Google as part of Android
+community/ttf-eurof 1.0-2
+    The original eurofurence font designed for headlines, signs, badges, inscriptions, et al.
+community/ttf-fantasque-sans-mono 1.8.0-2
+    Font family with a great monospaced variant for programmers
+community/ttf-fira-code 5.2-1
+    Monospaced font with programming ligatures
+community/ttf-fira-mono 2:3.206-4
+    Mozilla's monospace typeface designed for Firefox OS
+community/ttf-fira-sans 1:4.301-2
+    Mozilla's sans-serif typeface designed for Firefox OS
+community/ttf-font-awesome 5.15.4-1
+    Iconic font designed for Bootstrap
+community/ttf-hanazono 20170904-4
+    A free Japanese kanji font, which contains about 78,685 characters (and 2 SPACEs) defined in ISO/IEC 10646 standard / the Unicode standard.
+community/ttf-hannom 2005-6 [installed]
+    Chinese and Vietnamese TrueType fonts
+community/ttf-ibm-plex 5.2.1-2
+    IBM Plex Mono, Sans, and Serif
+community/ttf-inconsolata 1:3.000-3
+    Monospace font for pretty code listings and for the terminal
+community/ttf-indic-otf 0.2-11 [installed]
+    Indic Opentype Fonts collection
+community/ttf-input 20211004-1
+    Fonts for code from DJR & Font Bureau
+community/ttf-ionicons 6.0.0-1
+    Font from the Ionic mobile framework
+community/ttf-iosevka-nerd 2.1.0-1
+    Typeface family designed for coding, terminal use and technical documents (Nerd Fonts)
+community/ttf-jetbrains-mono 2.242-1
+    Typeface for developers, by JetBrains
+community/ttf-joypixels 6.6.0-1
+    Emoji as a Service (formerly EmojiOne)
+community/ttf-junicode 1.002-4
+    Junius-Unicode: Font for medievalists
+community/ttf-khmer 5.0-7
+    Fonts for Khmer and Latin alphabets
+community/ttf-lato 2.015-4
+    A sanserif typeface family bearing the Polish name of "Summer"
+community/ttf-liberation 2.1.5-1 [installed]
+    Font family which aims at metric compatibility with Arial, Times New Roman, and Courier New
+community/ttf-linux-libertine 5.3.0-7
+    Serif (Libertine) and Sans Serif (Biolinum) OpenType fonts with large Unicode coverage
+community/ttf-linux-libertine-g 20120116-6
+    Graphite port of Linux Libertine and Linux Biolinum fonts
+community/ttf-monofur 1.0-7
+    A monospaced font derived from the eurofurence typeface family
+community/ttf-monoid 0.61-7
+    A customisable coding font
+community/ttf-nerd-fonts-symbols 2.1.0+36+gd0bf73a1-4
+    High number of extra glyphs from popular 'iconic fonts' (2048-em)
+community/ttf-nerd-fonts-symbols-mono 2.1.0+36+gd0bf73a1-4
+    High number of extra glyphs from popular 'iconic fonts' (1000-em)
+community/ttf-opensans 1.101-2
+    Sans-serif typeface commissioned by Google
+community/ttf-proggy-clean 1.1.5-2
+    Monospaced fonts for programming
+community/ttf-roboto 2.138-4
+    Google's signature family of fonts
+community/ttf-roboto-mono 3.000-1
+    A monospaced addition to the Roboto type family.
+community/ttf-sarasa-gothic 0.35.1-1
+    A CJK programming font based on Iosevka and Source Han Sans. (TTC)
+community/ttf-sazanami 20040629-11
+    Japanese fonts
+community/ttf-tibetan-machine 1.901-11
+    Open-type unicode font for Tibetan
+community/ttf-ubuntu-font-family 0.83-7
+    Ubuntu font family

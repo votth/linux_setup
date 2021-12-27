@@ -1,0 +1,2 @@
+Install bulk
+sudo pacman -S $(pacman -Ssq foo)

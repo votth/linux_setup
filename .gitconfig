@@ -1,0 +1,8 @@
+[user]
+	name = votth
+	email = voth998@gmail.com
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[alias]
+	root = rev-parse --show-toplevel
