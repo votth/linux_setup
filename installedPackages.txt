@@ -122,6 +122,7 @@ gmp
 gnu-free-fonts
 gnupg
 gnutls
+go
 gobject-introspection-runtime
 google-chrome
 gpgme
