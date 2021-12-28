@@ -1,0 +1,64 @@
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+""	Simplest of movements
+h j k l				Left Down Up Right
+^e	 ^y				Scroll screen 1 line
+^d	 ^u				Scroll half-screen
+^f	 ^b				Scroll 1 screen
+
+H					Cursor to top of screen
+M					Cursor to mid of screen
+L					Cursor to bot of screen
+
+}	{				Jump to next/prev "paragraph" (empty line)
+
+""	Words navigations
+w					start of next word
+b					start of prev word
+e					end of next word
+ge					end of prev word
+
+W B E gE			respect <space>
+					jump depends on <space>
+eg.					~/.config/vim ~/.config/alacritty
+
+""	Line navigations
+0					To first column of line
+^					To first char of line
+$					To last  char of line
+
+""	Editing
+u					undo
+^r					redo
+
+d					delete from cursor to ...
+c					change from cursor to ...
+x					delete under  cursor
+X					delete before cursor
+y					yank (copy) from cursor to ...
+p					put (paste) after cursor
+P					put before cursor
+r					replace char under cursor
+R					replace from under cursor to <ESC> to finish
+
+.					repeat last action (this is very powerful)
+
+a					insert after  cursor
+i					insert before cursor
+A					insert to end of line
+
+"	Line editing
+yy	dd	cc			operate on the whole line
+
+"	Use with operator: `a` is replaceable for `i`, aslo take the spacing after
+iw					inner word eg. ~/. config / vim 4 words
+iW					inner WORD eg. ~/.config/vim    1 WORD
+is					inner sentence
+ip					inner paragraph
+i(	i)				inner ( block
+i<	i>				inner < block
+i{	i}				inner { block
+i"					inner " block
+i`					inner ` block
+
+
