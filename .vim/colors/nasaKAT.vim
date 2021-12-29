@@ -90,7 +90,7 @@ hi Error guifg=#FFFFFF guibg=#912C00 guisp=#912C00 gui=NONE ctermfg=15 ctermbg=8
 hi ErrorMsg guifg=#FFFFFF guibg=#E63367 guisp=#E63367 gui=NONE ctermfg=15 ctermbg=197 cterm=NONE
 hi WarningMsg guifg=#A1A6A8 guibg=#912C00 guisp=#912C00 gui=NONE ctermfg=248 ctermbg=88 cterm=NONE
 hi MoreMsg guifg=#BD9800 guibg=NONE guisp=NONE gui=bold ctermfg=11 ctermbg=NONE cterm=bold
-hi Todo guifg=#000000 guibg=#f07398 guisp=#f07398 gui=NONE ctermfg=NONE ctermbg=211 cterm=NONE
+hi Todo guifg=#000000 guibg=#af788b guisp=#af788b gui=NONE ctermfg=NONE ctermbg=211 cterm=NONE
 hi Question guifg=#C7DB50 ctermfg=2
 hi MatchParen guifg=#000000 guibg=#C7DB50 guisp=NONE gui=bold ctermfg=16 ctermbg=185 cterm=bold
 "hi Ignore -- no settings --
@@ -99,6 +99,7 @@ hi MatchParen guifg=#000000 guibg=#C7DB50 guisp=NONE gui=bold ctermfg=16 ctermbg
 hi SignColumn guifg=#192224 guibg=NONE guisp=#536991 gui=NONE ctermfg=235 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#E63367 guibg=NONE guisp=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi VertSplit guifg=#192224 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=235 ctermbg=66 cterm=bold
+" StatusLine
 hi StatusLineNC guifg=#2b282b guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=235 ctermbg=66 cterm=bold
 "hi StatusLine guifg=#000000 guibg=#FFD787 guisp=#FFD787 gui=NONE ctermfg=222 ctermbg=16 cterm=NONE
 

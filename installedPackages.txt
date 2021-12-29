@@ -93,7 +93,6 @@ firefox
 firefox-i18n-vi
 flac
 flex
-fluidsynth
 fontconfig
 freetype2
 fribidi
@@ -158,7 +157,6 @@ hwids
 hyphen
 iana-etc
 ibus
-ibus-unikey
 icu
 imagemagick
 imath
@@ -260,7 +258,6 @@ libiec61883
 libindicator-gtk3
 libinih
 libinput
-libinstpatch
 libixion
 libjpeg-turbo
 libkate
@@ -500,7 +497,6 @@ playerctl
 polkit
 poppler
 popt
-portaudio
 potrace
 prettyping
 procps-ng
