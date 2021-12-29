@@ -631,6 +631,7 @@ ttf-vista-fonts
 twolame
 tzdata
 udisks2
+unclutter-xfixes-git
 unrar
 unzip
 upd72020x-fw
