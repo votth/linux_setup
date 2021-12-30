@@ -13,11 +13,11 @@ hi SLBlack ctermfg=222 ctermbg=016
 set statusline=%#SLBlack#
 set statusline+=\ %n\ 		" Show buffer
 set statusline+=%#SLYellow#
-set statusline+=\ %.20F\ %2m	" File path and change status
+set statusline+=\ %.20f\ %2m	" File path and change status
 "" `right` side
 set statusline+=%=		" Align right
 set statusline+=%#SLBlack#
 set statusline+=\ %y\ 		" FileType 
 set statusline+=%#SLYellow#
 set statusline+=\ %2l\,%2c\ 	" Ruler: line, col
-set statusline+=\[%L\]		" Total lines
+set statusline+=[%L]		" Total lines

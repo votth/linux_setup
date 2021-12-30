@@ -7,7 +7,6 @@ function run {
     fi
 }
 
-run ibus -drxR
 run picom -b
 run discord
 run spotify

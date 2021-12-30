@@ -55,6 +55,15 @@ filetype plugin indent on
 " Ffinding
 set path+=**			" Add to path, find in subs of sub-dirs
 set wildmenu			" Display match files for tab completion
+"   ins-complete
+"   
+"   ^x^n    for just in this file
+"   ^x^f    for filenames
+"   ^x^]    for tags
+"   ^n	    for anything considered 'complete'
+"
+"   ^n ^p   to looking through this popup list
+
 " Fbrowsing - netrw
 let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
 "let g:netrw_list_hide= netrw_gitignore#Hide().'.*\.swp$'
@@ -119,7 +128,7 @@ set history=10000
 
 
 "" statusLine.vim config
-source $HOME/.config/vim/interactiveSL.vim
+source $HOME/.config/vim/statusLine.vim
 
 
 "" Plugins: ~/.vim/pack/plugins/start/
