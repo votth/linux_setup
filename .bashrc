@@ -1,6 +1,15 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Ibus + /etc/environment
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+
+# ???
+export EDITOR=vim
+export VISUAL=vim
+
 # Aliases
 if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases
@@ -11,10 +20,6 @@ LFCD="$HOME/.config/lf/lfcd.sh"
 if [ -f "$LFCD" ]; then
 	source "$LFCD"
 fi
-
-# ???
-export EDITOR=vim
-export VISUAL=vim
 
 # Show git state in prompt
 source $HOME/.git-prompt.sh

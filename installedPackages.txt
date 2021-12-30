@@ -157,6 +157,7 @@ hwids
 hyphen
 iana-etc
 ibus
+ibus-bamboo
 icu
 imagemagick
 imath
@@ -506,6 +507,7 @@ pulseaudio-alsa
 python
 python-appdirs
 python-cachecontrol
+python-certifi
 python-cffi
 python-chardet
 python-colorama
@@ -513,9 +515,11 @@ python-contextlib2
 python-cryptography
 python-distlib
 python-distro
+python-filelock
 python-gobject
 python-html5lib
 python-idna
+python-importlib-metadata
 python-manimpango
 python-more-itertools
 python-msgpack
@@ -523,6 +527,8 @@ python-ordered-set
 python-packaging
 python-pep517
 python-pip
+python-pipenv
+python-platformdirs
 python-ply
 python-progress
 python-pycparser
@@ -536,8 +542,11 @@ python-six
 python-toml
 python-tomli
 python-urllib3
+python-virtualenv
+python-virtualenv-clone
 python-webencodings
 python-xlib
+python-zipp
 qt5-base
 qt5-svg
 qt5-translations
@@ -674,6 +683,7 @@ xf86-video-nouveau
 xf86-video-vesa
 xfsprogs
 xkeyboard-config
+xkeycaps
 xmlsec
 xorg-bdftopcf
 xorg-docs
