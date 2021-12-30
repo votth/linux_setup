@@ -9,7 +9,7 @@ cp -avr -t .config/ alacritty/ lf/ picom/ vim/
 cp -avr -t .vim/ colors/ after/
 rm -rf alacritty lf picom colors after vim
 
-pacman -Qq > installedPackages.txt
+pacman -Qq > ./txt/installedPackages.txt
 echo '------------------------------------' && git st
 
 ### Push the update
