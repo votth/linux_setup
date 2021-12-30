@@ -119,7 +119,7 @@ set history=10000
 
 
 "" statusLine.vim config
-"source $HOME/.config/vim/statusLine.vim
+source $HOME/.config/vim/interactiveSL.vim
 
 
 "" Plugins: ~/.vim/pack/plugins/start/

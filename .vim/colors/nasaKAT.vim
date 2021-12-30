@@ -92,7 +92,7 @@ hi WarningMsg guifg=#A1A6A8 guibg=#912C00 guisp=#912C00 gui=NONE ctermfg=248 cte
 hi MoreMsg guifg=#BD9800 guibg=NONE guisp=NONE gui=bold ctermfg=11 ctermbg=NONE cterm=bold
 hi Todo guifg=#000000 guibg=#af788b guisp=#af788b gui=NONE ctermfg=NONE ctermbg=211 cterm=NONE
 hi Question guifg=#C7DB50 ctermfg=2
-hi MatchParen guifg=#000000 guibg=#C7DB50 guisp=NONE gui=bold ctermfg=16 ctermbg=185 cterm=bold
+hi MatchParen guifg=#FFD787 guibg=#E63367 guisp=NONE gui=bold ctermfg=222 ctermbg=197 cterm=bold
 "hi Ignore -- no settings --
 
 "" Vim
@@ -101,6 +101,7 @@ hi LineNr guifg=#E63367 guibg=NONE guisp=NONE gui=NONE ctermfg=197 ctermbg=NONE 
 hi VertSplit guifg=#192224 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=235 ctermbg=66 cterm=bold
 " StatusLine
 hi StatusLineNC guifg=#2b282b guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=235 ctermbg=66 cterm=bold
+hi StatusLine ctermfg=235 guifg=#a4a6a8
 "hi StatusLine guifg=#000000 guibg=#FFD787 guisp=#FFD787 gui=NONE ctermfg=222 ctermbg=16 cterm=NONE
 
 "" Menu
