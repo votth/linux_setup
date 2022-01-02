@@ -1,0 +1,23 @@
+dfhdsklj aldkfjsl; alsdfhk lakdfj aldkfj alkdfj
+alfj
+
+alfj alkdsf
+adlskfjlsd
+saldkfj
+
+@asdlfjkld@
+"2"adsfkjwdaflsdfjk" lskdfjldfj laldfjasldfjl2"
+
+'Hello world!'
+
+Change
+cs[currSurr][newSurr]	   in case of tag (eg. <p></p>), currSurr = `t`
+
+Delete
+ds[Surr]
+
+Put/Add
+ys[motion/textOBJ][Surr]    for the whole line, yss[Surr]
+
+
+**REPLACMENT	:h surround-replacements

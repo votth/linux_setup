@@ -54,7 +54,7 @@ A			insert to end of line
 "	Line editing
 yy	dd	cc	operate on the whole line
 
-"	Use with operator: `a` is replaceable for `i`, aslo take the spacing after
+"	Use with operator: `a` (around) is replaceable for `i`
 iw			inner word eg. ~/. config / vim 4 words
 iW			inner WORD eg. ~/.config/vim    1 WORD
 is			inner sentence

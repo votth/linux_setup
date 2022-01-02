@@ -35,7 +35,9 @@ alias poof='sudo shutdown -h now'
 
 # Funzy scripts
 alias snow='xsnow -snowflakes 650 -notrees -nosanta -norudolf -ssnowdepth 100 -yspeed 15 -nowind & disown'
-alias shsnow='python3 ~/Documents/github/linux_setup/scripts/snowjob.py'
+alias trueCL='~/Documents/github/linux_setup/scripts/Colors_true.sh'
+alias xtermCL='~/Documents/github/linux_setup/scripts/Colors_xterm.sh'
+alias promptCL='~/Documents/github/linux_setup/scripts/Colors_prompt.sh'
 
 # Fixing problem with SSH-ing when using alacritty
 alias ssh="TERM=xterm-256color ssh"
