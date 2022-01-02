@@ -90,7 +90,6 @@ file
 filesystem
 findutils
 firefox
-firefox-i18n-vi
 flac
 flex
 fontconfig
@@ -118,10 +117,8 @@ glibmm
 glslang
 glu
 gmp
-gnu-free-fonts
 gnupg
 gnutls
-go
 gobject-introspection-runtime
 google-chrome
 gpgme
@@ -157,7 +154,7 @@ hwids
 hyphen
 iana-etc
 ibus
-ibus-bamboo
+ibus-unikey
 icu
 imagemagick
 imath
@@ -605,17 +602,14 @@ tracker3
 transmission-gtk
 tree
 tslib
-ttf-bitstream-vera
 ttf-croscore
 ttf-dejavu
-ttf-droid
 ttf-fira-mono
 ttf-fira-sans
 ttf-google-fonts-git
 ttf-hack
 ttf-hanazono
 ttf-hannom
-ttf-ibm-plex
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation

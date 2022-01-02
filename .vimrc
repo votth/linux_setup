@@ -16,8 +16,8 @@ set ignorecase			" Always case-insensitive
 set smartcase			" Overdrive ignorecase
 				" if an uppercase is typed
 " Scrolling
-set scrolloff=15		" Show + line when scrolling jk
-set sidescrolloff=5		" Show + column when scrolling hl
+set scrolloff=10		" Show + line when scrolling jk
+set sidescrolloff=15		" Show + column when scrolling hl
 " Track changes/(un)dos		" Will undo even after :wq
 set undodir=~/.vim/undodir
 set undofile
@@ -110,7 +110,6 @@ augroup Hinonascii
 	\ highlight nonascii ctermfg=NONE ctermbg=red
 augroup END
 
-
 "" Tags file (using with ctags) for tags jumping
 command! MakeTags !ctags -R .
 if has('path_extra')
@@ -127,13 +126,14 @@ set history=10000
 "set viewoptions-=options
 
 
-"" statusLine.vim config
-source $HOME/.config/vim/statusLine.vim
-
-
+"" Statusline
+" source $HOME/.config/vim/statusLine.vim
+source $HOME/.config/vim/lightlineCustom.vim
 "" Plugins: ~/.vim/pack/plugins/start/
 "  from git/tpope
 "	commentary
 "	fugitive
 "   	repeat
 "   	surround
+"
+"   	lightline

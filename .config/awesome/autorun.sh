@@ -7,7 +7,7 @@ function run {
     fi
 }
 
-run picom -b
 run discord
 run spotify
+run picom -b
 run firefox

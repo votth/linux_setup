@@ -4,8 +4,12 @@ cp -avr -t . ~/.xinitrc ~/.git* ~/.bashrc ~/.bash_aliases ~/.vimrc ~/.vim/after/
 
 # while IFS= read -r line; do
 #     cp -avr -t . $line
-#     echo "$line"
+#     # echo $line
 # done < txt/trackedFiles.txt
+
+# for path in txt/trackedFiles.txt; do
+#     cp -avr $path .
+# done
 
 mv config .config/vimb/
 mv -t .config/awesome/ autorun.sh rc.lua

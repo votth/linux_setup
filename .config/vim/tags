@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/voth/.config/vim/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+ActivateStatusline	SamLovesNotion.vim	/^function! ActivateStatusline()$/;"	f
+DeactivateStatusline	SamLovesNotion.vim	/^function! DeactivateStatusline()$/;"	f
+GetFileType	SamLovesNotion.vim	/^function! GetFileType()$/;"	f
+GetGitBranch	SamLovesNotion.vim	/^augroup GetGitBranch$/;"	a
+GetGitBranch	SamLovesNotion.vim	/^function! GetGitBranch()$/;"	f
+GitBranch	interactiveSL.vim	/^function! GitBranch()$/;"	f
+GitBranch	statusLine.vim	/^function! GitBranch()$/;"	f
+GitBranch	templateSL.vim	/^function! GitBranch()$/;"	f
+SetStslineline	SamLovesNotion.vim	/^augroup SetStslineline$/;"	a
+StatuslineGit	interactiveSL.vim	/^function! StatuslineGit()$/;"	f
+StatuslineGit	statusLine.vim	/^function! StatuslineGit()$/;"	f
+StatuslineGit	templateSL.vim	/^function! StatuslineGit()$/;"	f
+StslineMode	SamLovesNotion.vim	/^function! StslineMode()$/;"	f
+UpdateStslineColors	SamLovesNotion.vim	/^function! UpdateStslineColors()$/;"	f
+g:StslineBackColor	SamLovesNotion.vim	/^let g:StslineBackColor   = g:StslineColorDark2$/;"	v
+g:StslineColorBlue	SamLovesNotion.vim	/^let g:StslineColorBlue   = "#4799EB"$/;"	v
+g:StslineColorDark	SamLovesNotion.vim	/^let g:StslineColorDark   = "#080808"$/;"	v
+g:StslineColorDark1	SamLovesNotion.vim	/^let g:StslineColorDark1  = "#181818"$/;"	v
+g:StslineColorDark2	SamLovesNotion.vim	/^let g:StslineColorDark2  = "#202020"$/;"	v
+g:StslineColorDark3	SamLovesNotion.vim	/^let g:StslineColorDark3  = "#303030"$/;"	v
+g:StslineColorGreen	SamLovesNotion.vim	/^let g:StslineColorGreen  = "#2BBB4F"$/;"	v
+g:StslineColorLight	SamLovesNotion.vim	/^let g:StslineColorLight  = "#C0C0C0"$/;"	v
+g:StslineColorOrange	SamLovesNotion.vim	/^let g:StslineColorOrange = "#EB754D"$/;"	v
+g:StslineColorViolet	SamLovesNotion.vim	/^let g:StslineColorViolet = "#986FEC"$/;"	v
+g:StslineColorYellow	SamLovesNotion.vim	/^let g:StslineColorYellow = "#D7A542"$/;"	v
+g:StslineOnBackColor	SamLovesNotion.vim	/^let g:StslineOnBackColor = g:StslineColorLight$/;"	v
+g:StslineOnPriColor	SamLovesNotion.vim	/^let g:StslineOnPriColor  = g:StslineColorDark$/;"	v
+g:StslineOnSecColor	SamLovesNotion.vim	/^let g:StslineOnSecColor  = g:StslineColorLight$/;"	v
+g:StslinePriColor	SamLovesNotion.vim	/^        let g:StslinePriColor     = g:StslineColorBlue$/;"	v
+g:StslinePriColor	SamLovesNotion.vim	/^        let g:StslinePriColor     = g:StslineColorGreen$/;"	v
+g:StslinePriColor	SamLovesNotion.vim	/^        let g:StslinePriColor     = g:StslineColorViolet$/;"	v
+g:StslinePriColor	SamLovesNotion.vim	/^        let g:StslinePriColor     = g:StslineColorYellow$/;"	v
+g:StslinePriColor	SamLovesNotion.vim	/^        let g:StslinePriColor     =g:StslineColorYellow$/;"	v
+g:StslinePriColor	SamLovesNotion.vim	/^let g:StslinePriColor    = g:StslineColorGreen$/;"	v
+g:StslineSecColor	SamLovesNotion.vim	/^let g:StslineSecColor    = g:StslineColorDark3$/;"	v
+g:currentmode	templateSL.vim	/^let g:currentmode={$/;"	v

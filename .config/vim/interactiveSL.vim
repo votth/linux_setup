@@ -13,7 +13,7 @@ function! StatuslineGit()
 endfunction
 
 " Normal
-hi Normal ctermfg=016 ctermbg=255
+hi Normal ctermfg=016 ctermbg=255 guifg=#a4a6a8 guibg=#000000
 " Replace
 hi Pink ctermfg=016 ctermbg=211 guifg=#000000 guibg=#fa6493
 hi PinkF ctermfg=211 ctermbg=016 guifg=#fa6493 guibg=#000000
@@ -41,12 +41,8 @@ set statusline+=%#Statusline#	" SL color
 set statusline+=\ %.20F\ %2m	" File path and change status
 
 set statusline+=%=		" Align right
-"set statusline+=%#StatusLineNc# " Not-current SL
-"set statusline+=\ %y		" FileType
-"set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
-"set statusline+=\ %2l\,%2c\ 	" Ruler: line, col
-"set statusline+=\[%L\]		" Total lines
-set statusline+=%#Normal#%{(mode()=='n')?'\ \ \%\y':''}
-set statusline+=%#Blue#%{(mode()=='i')?'':''}
-set statusline+=%#Green#%{(mode()=='c')?'':''}
-set statusline+=%#Pink#%{(mode()=='R')?'':''}
+set statusline+=%#StatusLineNc# " Not-current SL
+set statusline+=\ %y		" FileType
+set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
+set statusline+=\ %2l\,%2c\ 	" Ruler: line, col
+set statusline+=\[%L\]		" Total lines
