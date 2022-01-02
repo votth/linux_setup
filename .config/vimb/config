@@ -4,15 +4,19 @@ set fullscreen=false
 # darkmode
 set dark-mode=on
 
+# Hint-keys: what appears in `follow mode`
+set hint-keys=asdfghjkl;
+set hint-keys-same-length=on
+
 # Improve browsing fps
 set accelerated-2d-canvas=true
 set hardware-acceleration-policy=always
 
 # smooth-scrolling
-set smooth-scrolling=true
+# set smooth-scrolling=true
 
 # show search while typing
-set incsearch=false
+# set incsearch=false
 
 # media/audio
 set media-stream=true
@@ -71,12 +75,12 @@ nmap - zO
 nmap = zz
 
 # GUI color settings
-# KatakanaNASA
-set completion-css=color:#d3d0c8;background-color:#393939;font:14pt Dejavu Sans Mono;
-set completion-hover-css=color:#d3d0c8;background-color:#393939;font:14pt Dejavu Sans Mono;
-set completion-selected-css=color:#d3d0c8;background-color:#515151;font:14pt Dejavu Sans Mono;
-set input-css=color:#a4a7a6;background-color:#202020;font:14pt Dejavu Sans Mono;
-set input-error-css=color:#e63367;background-color:#202020;font:14pt Dejavu Sans Mono;
+# nasaKAT
+set completion-css=color:#192224;background-color:#a4a6a8;font:14pt Dejavu Sans Mono;
+set completion-hover-css=color:#192224;background-color:#a4a6a8;font:14pt Dejavu Sans Mono;
+set completion-selected-css=color:#000000;background-color:#ffd787;font:14pt Dejavu Sans Mono;
+set input-css=color:#a4a6a8;background-color:#1d1f21;font:14pt Dejavu Sans Mono;
+set input-error-css=color:#e63367;background-color:#000000;font:14pt Dejavu Sans Mono;
 set status-css=color:#ffffff;background-color:#e63367;font:14pt Dejavu Sans Mono;
-set status-ssl-css=color:#9fa65e;background-color:#202020;font:14pt Dejavu Sans Mono;
-set status-ssl-invalid-css=color:#202020;background-color:#deb86d;font:14pt Mono;
+set status-ssl-css=color:#c7db50;background-color:#1d1f21;font:14pt Dejavu Sans Mono;
+set status-ssl-invalid-css=color:#000000;background-color:#ffd787;font:14pt Mono;

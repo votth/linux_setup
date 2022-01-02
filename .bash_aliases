@@ -30,7 +30,7 @@ alias add='sudo pacman -S'
 alias del='sudo pacman -Rs'
 
 alias sudo='sudo '		    # to be able to use 'sudo' with aliases
-alias nuke='pacman -Qdtq > nukePackages.txt && sudo pacman -Rsn $(pacman -Qdtq)'
+alias nuke='pacman -Qdtq > $HOME/Documents/github/linux_setup/txt/nukePackages.txt && sudo pacman -Rsn $(pacman -Qdtq)'
 alias poof='sudo shutdown -h now'
 
 # Funzy scripts

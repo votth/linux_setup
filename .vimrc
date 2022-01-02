@@ -17,7 +17,7 @@ set smartcase			" Overdrive ignorecase
 				" if an uppercase is typed
 " Scrolling
 set scrolloff=10		" Show + line when scrolling jk
-set sidescrolloff=15		" Show + column when scrolling hl
+set sidescrolloff=35		" Show + column when scrolling hl
 " Track changes/(un)dos		" Will undo even after :wq
 set undodir=~/.vim/undodir
 set undofile
@@ -30,10 +30,11 @@ set tabpagemax=50
 "" Color
 colorscheme nasaKAT
 set termguicolors
-let &t_8f = "\<Esc>[38:2:%lu:%lu:%lum"	" fix for termguicolors
+" fix for termguicolors
+let &t_8f = "\<Esc>[38:2:%lu:%lu:%lum"	
 let &t_8b = "\<Esc>[48:2:%lu:%lu:%lum"
+" Hexokinase plugin for hexcode to color
 let g:Hexokinase_highlighters = ['backgroundfull']
-
 
 "" Indentation 
 set tabstop=8			" Number of spaces per Tab
@@ -47,15 +48,14 @@ set autoindent			" Copy indent from current line
 syntax on
 filetype plugin indent on
 "" Enbale funzy :^)
-" set nocompatible		" Not needed, since making ~/.vimrc will 
-				" auto-generate, and it can mess up others
+" set nocompatible		" Not needed, making ~/.vimrc will autogenerate
 
 
 "" Files
 " Ffinding
 set path+=**			" Add to path, find in subs of sub-dirs
 set wildmenu			" Display match files for tab completion
-"   ins-complete
+"   h: ins-complete
 "   
 "   ^x^n    for just in this file
 "   ^x^f    for filenames
@@ -129,6 +129,7 @@ set history=10000
 "" Statusline
 " source $HOME/.config/vim/statusLine.vim
 source $HOME/.config/vim/lightlineCustom.vim
+
 "" Plugins: ~/.vim/pack/plugins/start/
 "  from git/tpope
 "	commentary

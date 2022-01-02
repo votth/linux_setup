@@ -1,6 +1,4 @@
-lf
-
-vimb
+luakit
 
 w3m
 lynx
@@ -12,11 +10,6 @@ mpv
 mplayer
 youtube-dl
 
-pulseaudio
-pulseaudio-alsa
-pamixer
-pacmd
-
 prettyping
 colormake
 
@@ -24,19 +17,7 @@ tor
 nyx
 onionshare
 
-AwesomeWM widgets
-spotify
-volume
-calendar
-battery
-
-PDF viewer/reader
-zathura + zathura-pdf-mupdf
-
 Use "bash -i [file_name]" to run commands from a file
 
 gdisk
 udisks2 (udisksctl)
-
-gst-plugins (for vimb)
-gst-libav

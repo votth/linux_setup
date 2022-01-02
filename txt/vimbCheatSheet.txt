@@ -1,0 +1,30 @@
+Usually, uppercase commands are same as lowercase ones, just in new tab/window
+
+gi	Cursor to first editable element
+C-z	Pass-through mode
+gF	Web Inspector
+
+o	basically goto new URI
+O	put current URI to input box
+
+t	similar to `o` but in new tab/window
+T
+
+gh	go home
+gH
+
+u	open last closed
+U
+
+["x]p	open URI from register x, or from the clipboard
+["x]P
+
+[N]C-o	go back N steps
+[N]C-i	go forward N steps
+[N]gu	to the Nth descendent dir of current URI
+gU	go to domain of current URI
+
+r	reload using cache
+R	reload without cache
+
+C-c	stop loading
