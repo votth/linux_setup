@@ -79,7 +79,6 @@ egl-wayland
 eglexternalplatform
 electron13
 elfutils
-emote
 enchant
 expat
 faad2
@@ -119,6 +118,7 @@ glu
 gmp
 gnupg
 gnutls
+go
 gobject-introspection-runtime
 google-chrome
 gpgme
@@ -260,7 +260,6 @@ libinput
 libixion
 libjpeg-turbo
 libkate
-libkeybinder3
 libksba
 liblangtag
 libldap
@@ -410,7 +409,6 @@ lua53-lgi
 luajit
 luakit-git
 lvm2
-lxappearance
 lz4
 lzo
 m4
@@ -513,7 +511,6 @@ python-cffi
 python-cssselect2
 python-defusedxml
 python-gobject
-python-manimpango
 python-pillow
 python-ply
 python-pycparser
@@ -521,7 +518,6 @@ python-six
 python-tinycss2
 python-webencodings
 python-xcffib
-python-xlib
 qt5-base
 qt5-svg
 qt5-translations
@@ -608,7 +604,6 @@ ttf-vista-fonts
 twolame
 tzdata
 udisks2
-unclutter-xfixes-git
 unrar
 unzip
 upd72020x-fw
@@ -648,7 +643,6 @@ xclip
 xdg-dbus-proxy
 xdg-user-dirs
 xdg-utils
-xdotool
 xf86-input-libinput
 xf86-video-intel
 xf86-video-nouveau
