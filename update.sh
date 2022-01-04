@@ -5,7 +5,7 @@ cp -avr -t . ~/.xinitrc ~/.git* ~/.bashrc ~/.bash_aliases ~/.vimrc ~/.vim/after/
 echo '------------------------------------'
 mv config .config/vimb/
 mv -t .config/awesome/ autorun.sh rc.lua
-cp -avr -t .config/ themes/
+cp -avr -t .config/awesome/ themes/
 cp -avr -t .config/ alacritty/ lf/ picom/ vim/
 cp -avr -t .vim/ colors/ after/
 rm -rf alacritty lf picom colors after vim themes

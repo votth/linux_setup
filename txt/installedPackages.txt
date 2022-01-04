@@ -50,6 +50,7 @@ cantarell-fonts
 cdparanoia
 celt
 chromaprint
+clipit
 clucene
 code
 colormake
@@ -643,7 +644,9 @@ xclip
 xdg-dbus-proxy
 xdg-user-dirs
 xdg-utils
+xdotool
 xf86-input-libinput
+xf86-input-synaptics
 xf86-video-intel
 xf86-video-nouveau
 xf86-video-vesa
