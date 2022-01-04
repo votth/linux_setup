@@ -429,7 +429,6 @@ mobile-broadband-provider-info
 mpfr
 mpg123
 mtdev
-nano
 ncdu
 ncurses
 ndctl
@@ -612,6 +611,7 @@ util-linux
 util-linux-libs
 v4l-utils
 vdpauinfo
+vi
 vid.stab
 vim-runtime
 vimb

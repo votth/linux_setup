@@ -608,6 +608,16 @@ client.connect_signal("manage", function (c)
         -- Prevent clients from being unreachable after screen count changes.
         awful.placement.no_offscreen(c)
     end
+    -- To fix app starts up with no class, such as spotify
+    -- from reddit u/PongFlavored
+    -- https://www.reddit.com/r/awesomewm/comments/d8r74k/comment/f1dmzgs/?utm_source=share&utm_medium=web2x&context=3
+    if c.class == nil then 
+	c.minimized = true
+	c:connect_signal("property::class", function ()
+	    c.minimized = false
+	    awful.rules.apply(c)
+	end)
+    end
 end)
 
 client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
