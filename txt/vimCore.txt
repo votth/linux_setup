@@ -72,3 +72,5 @@ q a [set of actions] q	q a	: initiate the recording @a
 			q	: end the recording
 @a			to use macro `a`
 
+""	Open URL
+gx

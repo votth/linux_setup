@@ -5,7 +5,7 @@ set fullscreen=false
 set dark-mode=on
 
 # Hint-keys: what appears in `follow mode`
-set hint-keys=asdfghjkl;
+set hint-keys=fjdksla;gh
 set hint-keys-same-length=on
 
 # Improve browsing fps

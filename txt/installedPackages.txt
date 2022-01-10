@@ -29,6 +29,7 @@ base
 bash
 bash-completion
 bdf-unifont
+bind
 binutils
 bison
 bluez
@@ -268,6 +269,7 @@ liblqr
 libmad
 libmanette
 libmatroska
+libmaxminddb
 libmd
 libmfx
 libmicrodns
@@ -332,6 +334,7 @@ libssh2
 libstaroffice
 libstemmer
 libsynctex
+libsysprof-capture
 libtar
 libtasn1
 libteam
@@ -402,6 +405,7 @@ linux-firmware
 linux-headers
 llvm-libs
 lm_sensors
+lmdb
 lpsolve
 lua51-filesystem
 lua52
@@ -451,6 +455,7 @@ npm
 npth
 nspr
 nss
+nss-mdns
 nvidia
 nvidia-utils
 ocl-icd
