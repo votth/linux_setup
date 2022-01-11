@@ -589,7 +589,7 @@ awful.rules.rules = {
       properties = { screen = 1, tag = "4" } },
     { rule = { class = "vlc" },
       properties = { screen = 1, tag = "4" } },
-    { rule = { class = "libreoffice-writer" },
+    { rule = { class = "libreoffice" },
       properties = { screen = 1, tag = "4" } },
 
 }

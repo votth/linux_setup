@@ -10,4 +10,4 @@ function run {
 run discord
 run spotify
 run picom -b
-run firefox
+# run firefox
