@@ -591,6 +591,8 @@ awful.rules.rules = {
       properties = { screen = 1, tag = "4" } },
     { rule = { class = "libreoffice" },
       properties = { screen = 1, tag = "4" } },
+    { rule = { class = "Microsoft Teams - Preview" },
+      properties = { screen = 1, tag = "4" } },
 
 }
 -- }}}

@@ -481,6 +481,7 @@ nss-mdns
 nvidia
 nvidia-utils
 ocl-icd
+onboard
 openal
 opencl-nvidia
 opencore-amr
@@ -535,6 +536,7 @@ psmisc
 pulseaudio
 pulseaudio-alsa
 python
+python-cairo
 python-cairocffi
 python-cairosvg
 python-cffi

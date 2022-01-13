@@ -1,19 +1,23 @@
+set editor-command=vim
+
 # Disable fullscren
 set fullscreen=false
 
 # darkmode
-set dark-mode=on
+set dark-mode=true
 
 # Hint-keys: what appears in `follow mode`
 set hint-keys=fjdksla;gh
-set hint-keys-same-length=on
+set hint-keys-same-length=true
+
+set minimum-font-size=14
 
 # Improve browsing fps
 set accelerated-2d-canvas=true
 set hardware-acceleration-policy=always
 
 # smooth-scrolling
-# set smooth-scrolling=true
+set smooth-scrolling=true
 
 # show search while typing
 # set incsearch=false
@@ -24,8 +28,6 @@ set mediasource=true
 set webaudio=false
 # Enable or disable support for WebGL on pages.
 set webgl=true
-
-set minimum-font-size=14
 
 # Path to the default download directory. If no download directory is set,
 # download will be written into current directory. The following pattern will
