@@ -24,6 +24,8 @@ alias vrc='vim ~/.vimrc'
 alias vnasa='vim ~/.vim/colors/nasaKAT.vim'
 alias vcf='cd ~/.config/vim/'
 
+alias py='python'
+
 # Lazy pacman
 alias roll='sudo pacman -Syu'
 alias add='sudo pacman -S'

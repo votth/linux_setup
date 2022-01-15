@@ -9,7 +9,7 @@ set autoread			" Auto update files with changes
 " Wrapping
 set linebreak			" Break lines at word
 " Search
-set incsearch			" Starts search immediately
+set noincsearch			" Starts search immediately
 set hlsearch			" Highlight all search results
 				" :noh to turn of temporarily
 set ignorecase			" Always case-insensitive
