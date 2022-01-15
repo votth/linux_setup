@@ -464,6 +464,7 @@ neon
 nettle
 network-manager-applet
 networkmanager
+networkmanager-openvpn
 nm-connection-editor
 nmap
 node-gyp
@@ -490,6 +491,7 @@ openjpeg2
 openmpi
 openssh
 openssl
+openvpn
 opus
 orc
 otf-hermit
@@ -523,6 +525,7 @@ perl-uri
 picom
 pinentry
 pixman
+pkcs11-helper
 pkgconf
 playerctl
 polkit
@@ -692,6 +695,7 @@ webkit2gtk
 webrtc-audio-processing
 wget
 which
+whois
 wildmidi
 woff2
 wpa_supplicant

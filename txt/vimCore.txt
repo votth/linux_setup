@@ -74,3 +74,8 @@ q a [set of actions] q	q a	: initiate the recording @a
 
 ""	Open URL
 gx
+
+
+""	Write as root
+
+:w !sudo tee %		https://stackoverflow.com/questions/2600783/how-does-the-vim-write-with-sudo-trick-work
