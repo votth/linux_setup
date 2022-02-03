@@ -101,14 +101,14 @@ nnoremap <silent> [<space>  :<c-u>put!=repeat([''],v:count)<bar>']+1<cr>
 nnoremap <silent> ]<space>  :<c-u>put =repeat([''],v:count)<bar>'[-1<cr>
 
 
-"" Highlight - hi
-" hi non-ascii
-augroup Hinonascii
-    autocmd!
-    autocmd BufEnter *
-	\ syntax match nonascii "[^\x00-\x7F]" |
-	\ highlight nonascii ctermfg=NONE ctermbg=red
-augroup END
+" "" Highlight - hi
+" " hi non-ascii
+" augroup Hinonascii
+"     autocmd!
+"     autocmd BufEnter *
+" 	\ syntax match nonascii "[^\x00-\x7F]" |
+" 	\ highlight nonascii ctermfg=NONE ctermbg=red
+" augroup END
 
 "" Tags file (using with ctags) for tags jumping
 command! MakeTags !ctags -R .

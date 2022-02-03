@@ -37,6 +37,7 @@ bluez-libs
 bluez-utils
 boost-libs
 box2d
+bridge-utils
 brotli
 btrfs-progs
 bubblewrap
@@ -57,6 +58,7 @@ clucene
 code
 colormake
 confuse
+containerd
 coreutils
 cryptsetup
 ctags
@@ -74,6 +76,7 @@ diffutils
 discord
 dmraid
 dnssec-anchors
+docker
 dosfstools
 e2fsprogs
 efibootmgr
@@ -425,6 +428,7 @@ lilv
 linux
 linux-api-headers
 linux-firmware
+linux-firmware-whence
 linux-headers
 lirc
 llvm-libs
@@ -479,6 +483,7 @@ npth
 nspr
 nss
 nss-mdns
+numlockx
 nvidia
 nvidia-utils
 ocl-icd
@@ -595,6 +600,7 @@ ripgrep
 rtkit
 rtmpdump
 run-parts
+runc
 sbc
 scrot
 sdl

@@ -23,7 +23,7 @@ alias vdoc='cd ~/.vim/pack/plugins/start/ && vim -u NONE -c "helptags $1/doc" -c
 alias vrc='vim ~/.vimrc'
 alias vnasa='vim ~/.vim/colors/nasaKAT.vim'
 alias vcf='cd ~/.config/vim/'
-
+#
 alias py='python'
 
 # Lazy pacman
