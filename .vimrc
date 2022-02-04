@@ -6,16 +6,17 @@ set number relativenumber	" Show line numbers, with absolute position
 set showmatch			" Highlight matching brackets
 set encoding=utf-8		" UTF-8 encoding
 set autoread			" Auto update files with changes
-
-set showbreak=↪\ 
-set list
-set listchars=tab:▸\ ,eol:↲,nbsp:␣,trail:•,precedes:←,extends:→
 " Wrapping
 set linebreak			" Break lines at word
+"" Indentation 
+set tabstop=8			" Number of spaces per Tab
+set softtabstop=4
+set shiftwidth=4		" Number of auto-indent spaces
+set smarttab			" Enable smart-tabs
+set autoindent			" Copy indent from current line
 " Search
-set noincsearch			" Starts search immediately
-set hlsearch			" Highlight all search results
-				" :noh to turn of temporarily
+set incsearch			" Starts search immediately
+set nohlsearch			" Highlight all search results
 set ignorecase			" Always case-insensitive
 set smartcase			" Overdrive ignorecase
 				" if an uppercase is typed
@@ -29,9 +30,15 @@ set undolevels=1000		" Number of undo levels
 " Misc
 set backspace=indent,eol,start	" Backspace through everything
 set tabpagemax=50
+set showbreak=↪\ 
+set list
+set listchars=tab:▸\ ,eol:↲,nbsp:␣,trail:•,precedes:←,extends:→
+"" Enable syntax and utilities
+syntax on
+filetype plugin indent on
 " }}}
 
-"" Color
+" Color {{{
 colorscheme nasaKAT
 set termguicolors
 " fix for termguicolors
@@ -39,23 +46,9 @@ let &t_8f = "\<Esc>[38:2:%lu:%lu:%lum"
 let &t_8b = "\<Esc>[48:2:%lu:%lu:%lum"
 " Hexokinase plugin for hexcode to color
 let g:Hexokinase_highlighters = ['backgroundfull']
+" }}}
 
-"" Indentation 
-set tabstop=8			" Number of spaces per Tab
-set softtabstop=4
-set shiftwidth=4		" Number of auto-indent spaces
-set smarttab			" Enable smart-tabs
-set autoindent			" Copy indent from current line
-
-
-"" Enable syntax and utilities
-syntax on
-filetype plugin indent on
-"" Enbale funzy :^)
-" set nocompatible		" Not needed, making ~/.vimrc will autogenerate
-
-
-"" Files
+" Files {{{
 " Ffinding
 set path+=**			" Add to path, find in subs of sub-dirs
 set wildmenu			" Display match files for tab completion
@@ -67,7 +60,6 @@ set wildmenu			" Display match files for tab completion
 "   ^n	    for anything considered 'complete'
 "
 "   ^n ^p   to looking through this popup list
-
 " Fbrowsing - netrw
 let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
 let g:netrw_list_hide= netrw_gitignore#Hide().'.*\.swp$'
@@ -82,18 +74,18 @@ let g:netrw_winsize = 75
 "   autocmd!
 "   autocmd VimEnter * :Vexplore
 " augroup END
+" }}}
 
-"" Snippet
-nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a
-
-
-"" Mapping
+" Mapping
 "
 "	n[nore]map	for normal-mode
 "	v[nore]map	for visual and select
 "	x[nore]map	for visual only
 "	map		for everything
 "
+" Snippet
+nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a
+" Shortcuts
 " <C-L> to clear search highlight
 if maparg('<C-L>', 'n') ==# ''
     nnoremap <silent> <C-L> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
@@ -103,9 +95,15 @@ nnoremap ,e :w !diff % -<CR>
 " Insert newline without enter I-mode
 nnoremap <silent> [<space>  :<c-u>put!=repeat([''],v:count)<bar>']+1<cr>
 nnoremap <silent> ]<space>  :<c-u>put =repeat([''],v:count)<bar>'[-1<cr>
+" Folding
+nnoremap <space> za
+augroup remember_folds
+  autocmd!
+  autocmd BufWinLeave * mkview
+  autocmd BufWinEnter * silent! loadview
+augroup END
 
-
-" "" Highlight - hi
+" Highlight - hi
 " " hi non-ascii
 " augroup Hinonascii
 "     autocmd!
@@ -114,12 +112,11 @@ nnoremap <silent> ]<space>  :<c-u>put =repeat([''],v:count)<bar>'[-1<cr>
 " 	\ highlight nonascii ctermfg=NONE ctermbg=red
 " augroup END
 
-"" Tags file (using with ctags) for tags jumping
+" Tags file (using with ctags) for tags jumping
 command! MakeTags !ctags -R .
 if has('path_extra')
     setglobal tags-=./tags tags-=./tags; tags^=./tags;
 endif
-
 
 "" ???
 if !empty(&viminfo)
@@ -129,11 +126,9 @@ set history=10000
 "set sessionoptions-=options
 "set viewoptions-=options
 
-
-"" Statusline
+" Statusline and Plugins {{{
 " source $HOME/.config/vim/statusLine.vim
 source $HOME/.config/vim/lightlineCustom.vim
-
 "" Plugins: ~/.vim/pack/plugins/start/
 "  from git/tpope
 "	commentary
@@ -142,3 +137,5 @@ source $HOME/.config/vim/lightlineCustom.vim
 "   	surround
 "
 "   	lightline
+" }}}
+let g:instant_markdown_autostart = 0

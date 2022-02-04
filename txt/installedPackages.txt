@@ -53,7 +53,6 @@ cdparanoia
 celt
 chromaprint
 cifs-utils
-clipit
 clucene
 code
 colormake
@@ -331,7 +330,6 @@ lcms2
 ldb
 ldns
 less
-lf
 libabw
 libaio
 libappindicator-gtk3
