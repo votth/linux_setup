@@ -42,4 +42,4 @@ spacer
     print('Blocked code with syntax on')
 ```
 
-![https://avatars.githubusercontent.com/u/57920959?s=48&v=4]
+![alt text](https://avatars.githubusercontent.com/u/57920959?s=48&v=4)
