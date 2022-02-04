@@ -1,11 +1,15 @@
 "" Show line number for help doc
 autocmd FileType help setlocal number relativenumber
 
-"" Common config
+" Common config {{{
 set number relativenumber	" Show line numbers, with absolute position
 set showmatch			" Highlight matching brackets
 set encoding=utf-8		" UTF-8 encoding
 set autoread			" Auto update files with changes
+
+set showbreak=↪\ 
+set list
+set listchars=tab:▸\ ,eol:↲,nbsp:␣,trail:•,precedes:←,extends:→
 " Wrapping
 set linebreak			" Break lines at word
 " Search
@@ -25,7 +29,7 @@ set undolevels=1000		" Number of undo levels
 " Misc
 set backspace=indent,eol,start	" Backspace through everything
 set tabpagemax=50
-
+" }}}
 
 "" Color
 colorscheme nasaKAT
