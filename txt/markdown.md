@@ -14,16 +14,12 @@ spacer
 
 ~~strikethrough text~~ 
 
----
-
 > This is a quote
 
----
 [some links](https://example.org)
 
 [links with title](https://example.org [https example website])
 
----
 * Item 1
 * Item 2
 * Item 3
@@ -34,7 +30,6 @@ spacer
 1. Item 2
 1. Item 3
 
----
 `<p>This is a paragraph</p>`
 
 ```
@@ -47,4 +42,4 @@ spacer
     print('Blocked code with syntax on')
 ```
 
-
+![https://avatars.githubusercontent.com/u/57920959?s=48&v=4]
