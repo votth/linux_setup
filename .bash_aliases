@@ -21,12 +21,12 @@ alias vcf='cd ~/.config/vim/'
 alias lf='vim .'
 
 # lazy pacman
-alias roll='sudo pacman -syu'
-alias add='sudo pacman -s'
-alias del='sudo pacman -rs'
+alias roll='sudo pacman -Syu'
+alias add='sudo pacman -S'
+alias del='sudo pacman -Rs'
 
 alias sudo='sudo '		    # to be able to use 'sudo' with aliases
-alias nuke='sudo pacman -rsn $(pacman -qdtq) && pacman -qdtq > $home/documents/github/linux_setup/txt/nukepackages.txt'
+alias nuke='sudo pacman -RSn $(pacman -qdtq) && pacman -qdtq > $home/documents/github/linux_setup/txt/nukepackages.txt'
 alias poof='sudo shutdown -h now'
 
 # Misc.

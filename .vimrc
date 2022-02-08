@@ -61,6 +61,7 @@ set wildmenu			" Display match files for tab completion
 "
 "   ^n ^p   to looking through this popup list
 " Fbrowsing - netrw
+let g:netrw_hide = 1	" hide dotfiles, gh to toggle
 let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
 let g:netrw_list_hide= netrw_gitignore#Hide().'.*\.swp$'
 let g:netrw_list_hide='.\(^\|\s\s)\zs\.\S\+'
