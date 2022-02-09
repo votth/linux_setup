@@ -49,6 +49,7 @@ ca-certificates-utils
 cairo
 cairomm
 cantarell-fonts
+caprine
 cdparanoia
 celt
 chromaprint
