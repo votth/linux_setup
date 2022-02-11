@@ -343,6 +343,7 @@ libatomic_ops
 libavc1394
 libavif
 libavtp
+libb64
 libblockdev
 libbluray
 libbs2b
@@ -387,6 +388,7 @@ libexttextcat
 libfdk-aac
 libffi
 libfontenc
+libfreeaptx
 libfreehand
 libftdi
 libgcrypt
@@ -411,9 +413,11 @@ libjpeg-turbo
 libkate
 libksba
 liblangtag
+libldac
 libldap
 liblqr
 liblrdf
+libltc
 libmad
 libmanette
 libmaxminddb
@@ -430,6 +434,7 @@ libmpcdec
 libmpeg2
 libmspub
 libmwaw
+libnatpmp
 libndp
 libnet
 libnetfilter_conntrack
@@ -448,6 +453,7 @@ libodfgen
 libofa
 libogg
 libomxil-bellagio
+libopenmpt
 liborcus
 libp11-kit
 libpagemaker
@@ -578,6 +584,7 @@ mdadm
 mesa
 mesa-utils
 minecraft-launcher
+miniupnpc
 minizip
 mjpegtools
 mkinitcpio
@@ -714,6 +721,7 @@ python-urllib3
 python-webencodings
 python-xcffib
 python-zipp
+qrencode
 raptor
 rasqal
 rav1e
