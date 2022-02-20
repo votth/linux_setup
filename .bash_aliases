@@ -7,6 +7,7 @@ alias als='$EDITOR ~/.bash_aliases'
 alias la='ls -al'
 alias tgr='cd $(git root)'	    # to git root
 alias tg='cd ~/Documents/github/'   # to git
+alias cs50='cd ~/Documents/PTE/Code/CS50/'
 
 # Applications related
 alias vb='vimb --no-maximize'

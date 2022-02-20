@@ -80,12 +80,12 @@ dconf
 desktop-file-utils
 device-mapper
 diffutils
-discord
 dmraid
 dnssec-anchors
 docker
 dosfstools
 double-conversion
+draco
 e2fsprogs
 efibootmgr
 efivar
@@ -102,6 +102,8 @@ faad2
 fakeroot
 feh
 ffmpeg
+ffmpeg4.4
+ffnvcodec-headers
 fftw
 file
 filesystem
@@ -615,6 +617,7 @@ md4c
 mdadm
 mesa
 mesa-utils
+meson
 minecraft-launcher
 miniupnpc
 minizip
@@ -636,6 +639,7 @@ nettle
 network-manager-applet
 networkmanager
 networkmanager-openvpn
+ninja
 nm-connection-editor
 nmap
 nodejs
@@ -873,6 +877,7 @@ upd72020x-fw
 util-linux
 util-linux-libs
 v4l-utils
+valgrind
 vdpauinfo
 vi
 vid.stab

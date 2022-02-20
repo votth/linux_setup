@@ -7,7 +7,7 @@ function run {
     fi
 }
 
-run discord
+run ~/Downloads/Discord/Discord
 run spotify
 run picom -b
 # run firefox
