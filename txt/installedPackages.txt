@@ -132,6 +132,7 @@ ghc-libs
 giflib
 girara
 git
+git-lfs
 github-cli
 glew
 glib-networking
