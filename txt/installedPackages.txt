@@ -840,6 +840,7 @@ texlive-langextra
 texlive-latexextra
 thin-provisioning-tools
 tinyxml
+tpm2-tss
 tracker3
 transmission-gtk
 tree
