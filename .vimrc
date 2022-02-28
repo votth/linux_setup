@@ -9,7 +9,7 @@ set autoread			" Auto update files with changes
 " Wrapping
 set linebreak			" Break lines at word
 "" Indentation 
-set tabstop=8			" Number of spaces per Tab
+set tabstop=4			" Number of spaces per Tab
 set softtabstop=4
 set shiftwidth=4		" Number of auto-indent spaces
 set smarttab			" Enable smart-tabs
@@ -32,7 +32,8 @@ set backspace=indent,eol,start	" Backspace through everything
 set tabpagemax=50
 set showbreak=↪\ 
 set list
-set listchars=tab:▸\ ,eol:↲,nbsp:␣,trail:•,precedes:←,extends:→
+set listchars=tab:▸\ ,nbsp:␣,trail:•,precedes:←,extends:→
+" eol:↲,
 "" Enable syntax and utilities
 syntax on
 filetype plugin indent on
@@ -53,7 +54,7 @@ let g:Hexokinase_highlighters = ['backgroundfull']
 set path+=**			" Add to path, find in subs of sub-dirs
 set wildmenu			" Display match files for tab completion
 "   h: ins-complete
-"   
+"
 "   ^x^n    for just in this file
 "   ^x^f    for filenames
 "   ^x^]    for tags
@@ -136,7 +137,10 @@ source $HOME/.config/vim/lightlineCustom.vim
 "	fugitive
 "   	repeat
 "   	surround
+"   	markdown
 "
 "   	lightline
 " }}}
 let g:instant_markdown_autostart = 0
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'c']
+" let g:markdown_syntax_conceal = 0

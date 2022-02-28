@@ -15,8 +15,8 @@ alias vncv='vncviewer & disown'
 # alias mlab='env MESA_LOADER_DRIVER_OVERRIDE=i965 matlab -desktop'
 # go to vim's builtin plugins man, $1 is name of plugin, determined when `git clone`
 alias vdoc='cd ~/.vim/pack/plugins/start/ && vim -u NONE -c "helptags $1/doc" -c q'
-alias vrc='vim ~/.vimrc'
-alias vnasa='vim ~/.vim/colors/nasaKAT.vim'
+alias vrc='$EDITOR ~/.vimrc'
+alias vnasa='$EDITOR ~/.vim/colors/nasaKAT.vim'
 alias vcf='cd ~/.config/vim/'
 # File/Folder browser: netrw
 alias lf='vim .'
@@ -27,7 +27,7 @@ alias add='sudo pacman -S'
 alias del='sudo pacman -Rs'
 
 alias sudo='sudo '		    # to be able to use 'sudo' with aliases
-alias nuke='sudo pacman -RSn $(pacman -qdtq) && pacman -qdtq > $home/documents/github/linux_setup/txt/nukepackages.txt'
+alias nuke='pacman -Qdtq > ~/Documents/github/linux_setup/txt/nukePackages.txt && sudo pacman -Rs $(pacman -Qdtq)'
 alias poof='sudo shutdown -h now'
 
 # Misc.
