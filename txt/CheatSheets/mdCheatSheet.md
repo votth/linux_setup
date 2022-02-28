@@ -16,9 +16,9 @@ spacer
 
 > This is a quote
 
-[some links](https://example.org)
+[Link description](https://example.org)
 
-[links with title](https://example.org "https example website")
+[Link description with title while hovering](https://example.org "https example website")
 
 * Item 1
 * Item 2

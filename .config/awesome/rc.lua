@@ -581,10 +581,14 @@ awful.rules.rules = {
       properties = { screen = 1, tag = "2" } },
     { rule = { class = "Spotify" },
       properties = { screen = 1, tag = "2" } },
+    { rule = { class = "Caprine" },
+      properties = { screen = 1, tag = "2" } },
+
     { rule = { class = "firefox" },
       properties = { screen = 1, tag = "3" } },
     { rule = { class = "Tor Browser" },
       properties = { screen = 1, tag = "3" } },
+
     { rule = { class = "Vmplayer" },
       properties = { screen = 1, tag = "4" } },
     { rule = { class = "vlc" },

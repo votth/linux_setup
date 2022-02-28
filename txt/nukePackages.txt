@@ -1,0 +1,9 @@
+celt
+elfutils
+ffnvcodec-headers
+libmms
+libofa
+meson
+xorg-font-utils
+zita-alsa-pcmi
+zita-resampler
