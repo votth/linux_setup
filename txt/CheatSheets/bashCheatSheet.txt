@@ -1,3 +1,8 @@
-!!	to run whatever was entered in before
+!!
+to run whatever was entered in before
 
-ls -v	to show list with regards to number/version control
+ls -v
+to show list with regards to number/version control
+
+find . -type d -empty
+list empty dir

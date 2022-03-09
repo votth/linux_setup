@@ -142,5 +142,3 @@ source $HOME/.config/vim/lightlineCustom.vim
 "   	lightline
 " }}}
 let g:instant_markdown_autostart = 0
-let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'c']
-" let g:markdown_syntax_conceal = 0

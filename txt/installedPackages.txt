@@ -3,6 +3,8 @@ aalib
 acl
 acpi
 acpid
+adobe-source-code-pro-fonts
+adobe-source-sans-fonts
 adobe-source-serif-fonts
 adwaita-icon-theme
 aic94xx-firmware
@@ -23,6 +25,7 @@ atkmm
 attr
 audit
 autoconf
+autoconf-archive
 automake
 avahi
 awesome
@@ -50,6 +53,7 @@ c-ares
 ca-certificates
 ca-certificates-mozilla
 ca-certificates-utils
+cabextract
 cairo
 cairomm
 cantarell-fonts
@@ -114,6 +118,7 @@ flex
 fluidsynth
 fmt
 fontconfig
+fontforge
 freeglut
 freetype2
 fribidi
@@ -146,7 +151,6 @@ gnupg
 gnutls
 go
 gobject-introspection-runtime
-google-chrome
 gpgme
 gpm
 gptfdisk
@@ -434,6 +438,7 @@ libindicator-gtk3
 libinih
 libinput
 libinstpatch
+libisl
 libixion
 libjpeg-turbo
 libkate
@@ -514,6 +519,7 @@ libsodium
 libsoup
 libsoup3
 libsoxr
+libspiro
 libspnav
 libsrtp
 libssh
@@ -531,12 +537,14 @@ libtiff
 libtirpc
 libtommath
 libtool
+libuninameslist
 libunistring
 libunwind
 libupnp
 liburcu
 libusb
 libusb-compat
+libutempter
 libuv
 libva
 libva-nvidia-driver
@@ -633,7 +641,6 @@ mtdev
 ncdu
 ncurses
 ndctl
-neo-matrix-git
 neofetch
 neon
 nettle
@@ -830,7 +837,6 @@ talloc
 tar
 tbb
 tdb
-teams
 terminus-font
 tevent
 texinfo
@@ -840,6 +846,7 @@ texlive-langextra
 texlive-latexextra
 thin-provisioning-tools
 tinyxml
+tmux
 tpm2-tss
 tracker3
 transmission-gtk
@@ -849,7 +856,6 @@ ttf-croscore
 ttf-dejavu
 ttf-fira-mono
 ttf-fira-sans
-ttf-google-fonts-git
 ttf-hack
 ttf-hanazono
 ttf-hannom
