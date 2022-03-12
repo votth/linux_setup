@@ -62,18 +62,15 @@ cblas
 cdparanoia
 celt
 chromaprint
-cifs-utils
 clang
 clucene
 code
 colormake
 compiler-rt
-confuse
 containerd
 coreutils
 cryptsetup
 ctags
-cuda
 curl
 dav1d
 db
@@ -98,7 +95,6 @@ eglexternalplatform
 electron13
 elfutils
 embree
-enca
 enchant
 expat
 faac
@@ -151,6 +147,7 @@ gnupg
 gnutls
 go
 gobject-introspection-runtime
+google-chrome
 gpgme
 gpm
 gptfdisk
@@ -353,7 +350,6 @@ l-smash
 lame
 lapack
 lcms2
-ldb
 ldns
 less
 libabw
@@ -379,9 +375,6 @@ libcaca
 libcanberra
 libcap
 libcap-ng
-libcddb
-libcdio
-libcdio-paranoia
 libcdr
 libcloudproviders
 libcolord
@@ -418,7 +411,6 @@ libffi
 libfontenc
 libfreeaptx
 libfreehand
-libftdi
 libgcrypt
 libglvnd
 libgme
@@ -458,7 +450,6 @@ libmfx
 libmicrodns
 libmm-glib
 libmms
-libmng
 libmnl
 libmodplug
 libmpc
@@ -543,7 +534,6 @@ libunwind
 libupnp
 liburcu
 libusb
-libusb-compat
 libutempter
 libuv
 libva
@@ -604,7 +594,6 @@ linux-api-headers
 linux-firmware
 linux-firmware-whence
 linux-headers
-lirc
 llvm-libs
 lm_sensors
 lmdb
@@ -636,7 +625,6 @@ mkinitcpio-busybox
 mobile-broadband-provider-info
 mpfr
 mpg123
-mplayer
 mtdev
 ncdu
 ncurses
@@ -747,12 +735,9 @@ python-cssselect2
 python-defusedxml
 python-distlib
 python-distro
-python-dnspython
 python-gobject
 python-html5lib
 python-idna
-python-importlib-metadata
-python-markdown
 python-more-itertools
 python-msgpack
 python-numpy
@@ -777,7 +762,6 @@ python-tomli
 python-urllib3
 python-webencodings
 python-xcffib
-python-zipp
 qrencode
 qt5-base
 qt5-svg
@@ -788,7 +772,6 @@ rasqal
 rav1e
 re2
 readline
-recode
 redland
 rest
 ripgrep
@@ -796,6 +779,7 @@ rtkit
 rtmpdump
 run-parts
 runc
+rust
 sbc
 scrot
 sdl
@@ -808,7 +792,6 @@ shaderc
 shadow
 shared-mime-info
 slang
-smbclient
 snappy
 sof-firmware
 sord
@@ -833,12 +816,11 @@ systemd-libs
 systemd-sysvcompat
 t1lib
 taglib
-talloc
 tar
 tbb
 tdb
+teams
 terminus-font
-tevent
 texinfo
 texlive-bin
 texlive-core
