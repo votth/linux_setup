@@ -253,11 +253,11 @@ end)
 globalkeys = gears.table.join(
     -- awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
     --           {description="show help", group="awesome"}),
-
+    -- resize help menu
     awful.key({ modkey }, "s",  function ()
 	    local screen = awful.screen.focused()
 	    hotkeys_popup.widget.new({
-		    width = 2400, height = 750, font = "Source Code Pro Bold 13",
+		    width = 1600, height = 900, font = "Source Code Pro Bold 13",
 		    description_font = "Source Code Pro 12"}):show_help(nil, screen)
 	    end, {description = "show help", group="awesome"}),
 
@@ -589,8 +589,8 @@ awful.rules.rules = {
       properties = { screen = 1, tag = "2" } },
     { rule = { class = "Spotify" },
       properties = { screen = 1, tag = "2" } },
-    { rule = { class = "firefox" },
-      properties = { screen = 1, tag = "3" } },
+    -- { rule = { class = "firefox" },
+    --   properties = { screen = 1, tag = "3" } },
     { rule = { class = "Tor Browser" },
       properties = { screen = 1, tag = "3" } },
     { rule = { class = "Vmplayer" },
