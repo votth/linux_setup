@@ -28,7 +28,6 @@ atkmm
 attr
 audit
 autoconf
-autoconf-archive
 automake
 avahi
 avr-binutils
@@ -60,14 +59,12 @@ c-ares
 ca-certificates
 ca-certificates-mozilla
 ca-certificates-utils
-cabextract
 cairo
 cairomm
 cantarell-fonts
 caprine
 cblas
 cdparanoia
-celt
 chromaprint
 clang
 clucene
@@ -114,7 +111,6 @@ feh
 ffcall
 ffmpeg
 ffmpeg4.4
-ffnvcodec-headers
 fftw
 file
 filesystem
@@ -125,7 +121,6 @@ flex
 fluidsynth
 fmt
 fontconfig
-fontforge
 freeglut
 freetype2
 fribidi
@@ -247,6 +242,7 @@ haskell-haddock-library
 haskell-hashable
 haskell-hourglass
 haskell-hslua
+haskell-hslua-aeson
 haskell-hslua-classes
 haskell-hslua-core
 haskell-hslua-marshalling
@@ -277,6 +273,7 @@ haskell-network
 haskell-network-uri
 haskell-old-locale
 haskell-old-time
+haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-pem
 haskell-pretty-show
@@ -402,7 +399,6 @@ libcdr
 libcloudproviders
 libcolord
 libconfig
-libcroco
 libcups
 libcurl-gnutls
 libdaemon
@@ -473,7 +469,6 @@ libmd
 libmfx
 libmicrodns
 libmm-glib
-libmms
 libmnl
 libmodplug
 libmpc
@@ -497,7 +492,6 @@ libnotify
 libnsl
 libnumbertext
 libodfgen
-libofa
 libogg
 libomxil-bellagio
 libopenmpt
@@ -534,7 +528,6 @@ libsodium
 libsoup
 libsoup3
 libsoxr
-libspiro
 libspnav
 libsrtp
 libssh
@@ -552,7 +545,6 @@ libtiff
 libtirpc
 libtommath
 libtool
-libuninameslist
 libunistring
 libunwind
 libupnp
@@ -641,7 +633,6 @@ md4c
 mdadm
 mesa
 mesa-utils
-meson
 minecraft-launcher
 miniupnpc
 minizip
@@ -661,14 +652,16 @@ nettle
 network-manager-applet
 networkmanager
 networkmanager-openvpn
-ninja
 nm-connection-editor
 nmap
+node-gyp
 nodejs
+nodejs-nopt
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
+npm
 npth
 nspr
 nss
@@ -830,6 +823,7 @@ sdl2
 sdl2_ttf
 sdl_ttf
 sed
+semver
 serd
 shaderc
 shadow
@@ -879,8 +873,6 @@ tree
 tslib
 ttf-croscore
 ttf-dejavu
-ttf-fira-mono
-ttf-fira-sans
 ttf-hack
 ttf-hanazono
 ttf-hannom
@@ -888,15 +880,10 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 ttf-linux-libertine
-ttf-merriweather
-ttf-merriweather-sans
 ttf-ms-fonts
 ttf-nerd-fonts-symbols
 ttf-opensans
-ttf-oswald
-ttf-quintessential
 ttf-roboto
-ttf-signika
 ttf-ubraille
 ttf-ubuntu-font-family
 ttf-vietnamese-vni
@@ -960,7 +947,6 @@ xmlsec
 xorg-bdftopcf
 xorg-docs
 xorg-font-util
-xorg-font-utils
 xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-fonts-alias-100dpi
@@ -1023,8 +1009,6 @@ zbar
 zeromq
 zimg
 zip
-zita-alsa-pcmi
-zita-resampler
 zlib
 zstd
 zvbi
