@@ -2,22 +2,21 @@
 alias brc='source ~/.bashrc'
 alias ebrc='$EDITOR ~/.bashrc'
 alias als='$EDITOR ~/.bash_aliases'
+#
+alias vrc='$EDITOR ~/.vimrc'
+alias vnasa='$EDITOR ~/.vim/colors/nasaKAT.vim'
 
 # Navigation
 alias la='ls -al'
 alias tgr='cd $(git root)'	    # to git root
 alias tg='cd ~/Documents/github/'   # to git
-alias cs50='cd ~/Documents/PTE/Code/CS50/'
 alias rjournal='cd ~/Documents/PTE/publish/R_Journal/'
 
 # Applications related
 alias vb='vimb --no-maximize'
 alias vncv='vncviewer & disown'
-# alias mlab='env MESA_LOADER_DRIVER_OVERRIDE=i965 matlab -desktop'
 # go to vim's builtin plugins man, $1 is name of plugin, determined when `git clone`
 alias vdoc='cd ~/.vim/pack/plugins/start/ && vim -u NONE -c "helptags $1/doc" -c q'
-alias vrc='$EDITOR ~/.vimrc'
-alias vnasa='$EDITOR ~/.vim/colors/nasaKAT.vim'
 alias vcf='cd ~/.config/vim/'
 # File/Folder browser: netrw
 alias lf='vim .'
@@ -36,6 +35,9 @@ alias testmic='arecord -d 5 test-mic.wav && echo -e "\nUse aplay test-mic.wav to
 alias quickmic='arecord -vvv -f dat /dev/null && rm test-mic.wav'
 alias open='xdg-open'
 alias batstat='cat /sys/class/power_supply/BAT0/status /sys/class/power_supply/BAT0/capacity'
+# Copy last used command
+# https://apple.stackexchange.com/questions/110343/copy-last-command-in-terminal
+alias cpLCMD='fc -ln -1 | awk '{$1=$1}1' | xclip -sel clipboard'
 
 # Color coded
 alias grep='grep --color=auto'
