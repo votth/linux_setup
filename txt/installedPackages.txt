@@ -99,7 +99,9 @@ efibootmgr
 efivar
 egl-wayland
 eglexternalplatform
+electron
 electron13
+electron17
 elfutils
 embree
 enchant
@@ -488,6 +490,7 @@ libnice
 libnl
 libnm
 libnma
+libnma-common
 libnotify
 libnsl
 libnumbertext
@@ -1010,6 +1013,7 @@ zeromq
 zimg
 zip
 zlib
+zoom
 zstd
 zvbi
 zxing-cpp
