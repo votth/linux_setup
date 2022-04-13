@@ -390,6 +390,7 @@ libavtp
 libb64
 libblockdev
 libbluray
+libbpf
 libbs2b
 libbsd
 libbytesize
