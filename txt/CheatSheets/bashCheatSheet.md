@@ -1,11 +1,11 @@
 !!
 to run whatever was entered in before
-
+---
 ls -v
 to show list with regards to number/version control
-
+---
 find . -type d -empty
 list empty dir
-
-python -m http.server <port>
+---
+python -m http.server \<port\>
 to server a local http server
