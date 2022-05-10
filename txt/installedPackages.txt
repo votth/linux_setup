@@ -822,7 +822,7 @@ runc
 rust
 sbc
 scrot
-sdl
+sdl12-compat
 sdl2
 sdl2_ttf
 sdl_ttf

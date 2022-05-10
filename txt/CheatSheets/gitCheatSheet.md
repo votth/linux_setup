@@ -99,3 +99,13 @@
 	git add .
 	git push
 ```
+
+# git lfs: Git Large File Storage
+```
+	git lfs track "{file_pattern}"
+	git add .gitattribute
+```
+
+# pull vs fetch
+- fetch will check for new changes
+- pull will fetch then merge changes
