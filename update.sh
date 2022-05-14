@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cp -avr -t . ~/.xinitrc ~/.git* ~/.bashrc ~/.bash_aliases ~/.vimrc ~/.vim/after/ ~/.vim/colors/ ~/.config/alacritty/ ~/.config/awesome/autorun.sh ~/.config/awesome/rc.lua ~/.config/awesome/themes/ ~/.config/lf/ ~/.config/picom/ ~/.config/vimb/config ~/.config/vim/ ~/testPackages
+# cat ./txt/trackedFiles.txt | xargs cp -avr -t .
 
 echo '------------------------------------'
 mv config .config/vimb/

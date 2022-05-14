@@ -17,24 +17,24 @@ function! LineShort()
 endfunction
 
 function! TypeShort()
-    return winwidth(0) > 35 ? (&filetype !=# '' ? &filetype : 'NI') : ''
+    return winwidth(0) > 35 ? (&filetype !=# '' ? &filetype : '-') : ''
 endfunction
 
 let g:lightline = {
     \	'colorscheme': 'nasaKAT',
     \	'active': {
-    \	    'left': [ [ 'mode', 'paste' ],
-    \		    [ 'gitbranch', 'filestat' ] ],
-    \	    'right': [ [ 'bufnum' ], [ 'ruler' ],
-    \		    [ 'fileformat', 'fileencoding', 'filetype' ] ]
+    \	    'left' :[ [ 'mode', 'paste' ],
+    \		      [ 'gitbranch', 'filestat' ] ],
+    \	    'right':[ [ 'bufnum' ], [ 'ruler' ],
+    \		      [ 'fileformat', 'fileencoding', 'filetype' ] ]
     \	},
     \	'component_function': {
-    \	    'gitbranch': 'FugitiveHead',
-    \	    'fileformat': 'FormatShort',
-    \	    'filetype': 'TypeShort',
+    \	    'gitbranch'   : 'FugitiveHead',
+    \	    'fileformat'  : 'FormatShort',
+    \	    'filetype'    : 'TypeShort',
     \	    'fileencoding': 'EncodeShort',
     \	},
     \	'component': {
     \	    'ruler': '%2l,%2c [%L]'
     \	},
-    \ }
+    \}
