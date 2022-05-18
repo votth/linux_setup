@@ -12,10 +12,6 @@ function! EncodeShort()
     return winwidth(0) > 60 ? &fileencoding : ''
 endfunction
 
-function! LineShort()
-    return winwidth(0) > 40 ? &lineinfo : '[%L]'
-endfunction
-
 function! TypeShort()
     return winwidth(0) > 35 ? (&filetype !=# '' ? &filetype : '-') : ''
 endfunction
@@ -35,6 +31,6 @@ let g:lightline = {
     \	    'fileencoding': 'EncodeShort',
     \	},
     \	'component': {
-    \	    'ruler': '%2l,%2c [%L]'
+    \	    'ruler' : '[%L]'
     \	},
     \}

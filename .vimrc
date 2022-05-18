@@ -1,5 +1,6 @@
-"" Show line number for help doc
+" Show line number for help doc {{{
 autocmd FileType help setlocal number relativenumber
+" }}}
 
 " Common config {{{
 set number relativenumber	" Show line numbers, with absolute position
@@ -120,13 +121,14 @@ if has('path_extra')
     setglobal tags-=./tags tags-=./tags; tags^=./tags;
 endif
 
-"" ???
+" ??? {{{
 if !empty(&viminfo)
     set viminfo^=!		" :changes to show past changes
 endif
 set history=10000
 "set sessionoptions-=options
 "set viewoptions-=options
+" }}}
 
 " Statusline and Plugins {{{
 " source $HOME/.config/vim/statusLine.vim
@@ -141,5 +143,8 @@ source $HOME/.config/vim/lightlineCustom.vim
 "
 "   	lightline
 " }}}
+
+" Markdown
 let g:instant_markdown_autostart = 0
 let g:markdown_fenced_languages = ['html', 'css', 'python', 'bash=sh', 'c', 'cpp']
+
