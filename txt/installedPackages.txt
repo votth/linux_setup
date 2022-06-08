@@ -687,6 +687,7 @@ openimagedenoise
 openimageio
 openjpeg2
 openmpi
+openpmix
 openshadinglanguage
 openssh
 openssl
