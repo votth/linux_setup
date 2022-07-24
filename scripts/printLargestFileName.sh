@@ -7,4 +7,4 @@ do
 done
 
 # return largest file's name
-du -h * | sort -nr | head -n 1 | cut -f 2-
+df -h * | sort -nr | head -n 1 | cut -f 2-
